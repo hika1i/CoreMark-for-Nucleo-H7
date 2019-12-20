@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../CM7/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include
+-I.\RTE\_H7Benchmark_CM7
+-IC:\Users\PYL\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+-IC:\Users\PYL\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.3.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include
+-D__UVISION_VERSION="527" -D_RTE_ -DCORE_CM7 -DSTM32H745xx -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx
+-o h7benchmark_cm7\stm32h7xx_hal_hsem.o --omf_browse h7benchmark_cm7\stm32h7xx_hal_hsem.crf --depend h7benchmark_cm7\stm32h7xx_hal_hsem.d --feedback "H7Benchmark_CM7\H7Benchmark_CM7.fed" "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c"
