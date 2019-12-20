@@ -1,0 +1,7 @@
+*.o
+*.d
+*._2i
+*.crf
+*.sct
+*.lst
+Drivers/
